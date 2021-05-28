@@ -1,0 +1,48 @@
+
+
+body {
+  margin: 0;
+  padding: 30px;
+  font-family: $font-family-sans-serif;
+  background-color: $uoc-bg;
+  color: $uoc-corporate;
+}
+
+.uoc-logo {
+  display: block;
+  margin-bottom: 20px;
+  width: 300px;
+  height: auto;
+}
+
+.uoc-title {
+  font-family: $font-family-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: $uoc-corporate;
+}
+
+
+//----> Utilización de @apply
+//--> Componente boton formulario
+.btn-formulario {
+  @apply bg-blue-500 hover:bg-green-700 text-white font-bold py-2 px-4 border border-gray-700 rounded;
+}
+//--> Componente imagen principal
+.imagen{
+  @apply rounded border-gray-700 overflow-hidden shadow-lg w-full;
+}
+
+
+//--> Componente imagenes grupos
+.imagenGrupos{
+  @apply mt-2 ml-1 text-base w-full ;
+}
+
+
+
+
+
+
+
+
